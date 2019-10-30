@@ -137,12 +137,23 @@ states = {
 }
 '''
 
+# 1 Menos de 1 s.m.
+# 2 1 salario m¡nimo
+# 3 M\xa0s de 1 hasta 2 s.m.
+# 4 M\xa0s de 2 hasta 3 s.m.
+# 5 M\xa0s de 3 hasta 5 s.m.
+# 6 M\xa0s de 5 hasta 10 s.m.
+# 7 M\xa0s de 10 s.m.
+# 8 No recibe ingresos
+# 9 No especificado
+
 less_than_minimum_salary = 'Menos de 1 s.m.'
 one_minimum_salary = '1 salario m¡nimo'
-more_than_2_until_3 = 'M s de 2 hasta 3 s.m.'
-more_than_3_until_5 = 'M s de 3 hasta 5 s.m.'
-more_than_5_until_10 = 'M s de 5 hasta 10 s.m.'
-more_than_10 = 'M s de 10 s.m.'
+more_than_1_until_2 = 'M\xa0s de 1 hasta 2 s.m.'
+more_than_2_until_3 = 'M\xa0s de 2 hasta 3 s.m.'
+more_than_3_until_5 = 'M\xa0s de 3 hasta 5 s.m.'
+more_than_5_until_10 = 'M\xa0s de 5 hasta 10 s.m.'
+more_than_10 = 'M\xa0s de 10 s.m.'
 no_incoming = 'No recibe ingresos'
 not_specified = 'No especificado'
 
