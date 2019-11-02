@@ -63,6 +63,7 @@ yucatan = 'Yucat�n'
 zacatecas = 'Zacatecas'
 nacional = 'Nacional'
 
+'''
 states = [
     aguascalientes,
     bajaCalifornia,
@@ -98,8 +99,8 @@ states = [
     zacatecas,
     nacional
 ]
-
 '''
+
 states = {
     'Aguascalientes': 1,
     'Baja California': 2,
@@ -135,7 +136,7 @@ states = {
     'Zacatecas': 32,
     'Nacional': 33,
 }
-'''
+
 
 # 1 Menos de 1 s.m.
 # 2 1 salario m¡nimo
