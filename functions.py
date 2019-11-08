@@ -233,5 +233,25 @@ def save_image(df, image_name):
     df.plot().get_figure().savefig('website/img/' + image_name)
 
 
+def save_image_with_params(df, image_name, x, y):
+    df.plot(x, y).get_figure().savefig('website/img/' + image_name)
+
+
 def save_image_bar(df, image_name):
     df.plot.bar().get_figure().savefig('website/img/' + image_name)
+
+
+def change_age_range(df):
+    df.replace('15 A 24 A¥OS',    1, inplace=True)
+    df.replace('25 A 44 A¥OS',    2, inplace=True)
+    df.replace('45 A 64 A¥OS',    3, inplace=True)
+    df.replace('65 A¥OS Y MAS',   4, inplace=True)
+    df.replace('NO ESPECIFICADO', 5, inplace=True)
+    return df
+
+
+def change_sex_to_number(df):
+    df.replace('Hombre', 1, inplace=True)
+    df.replace('Mujer', 0, inplace=True)
+    return df
+
